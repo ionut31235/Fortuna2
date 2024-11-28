@@ -148,6 +148,8 @@ nav ul li a:hover {
 
     .parent {
         margin: 10px;
+        display: flex;
+        
     }
 
     .meniu {
