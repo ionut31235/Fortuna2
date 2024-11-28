@@ -21,7 +21,7 @@ h2{
 
 .parent{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
     gap: 10px;
 }
@@ -82,3 +82,28 @@ nav ul li a:hover {
     color: white;
 }
 
+#weekend{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+ #harta{
+    display:flex;
+    justify-content: center;
+ }
+ 
+ #contact{
+    text-align: center;
+ }
+ 
+ #fortuna{
+    width:100vw;
+    height: 500px;
+    background-image: url("./308076598_523052356487095_8484943915919284111_n.jpg");
+ }
+
+ #descriere{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:
+ }
