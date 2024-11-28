@@ -107,3 +107,54 @@ nav ul li a:hover {
     justify-content: center;
     margin-top:
  }
+
+ @media (max-width: 768px) {
+    .titlu1 {
+        font-size: 2.5rem;
+    }
+
+    .titlu2 {
+        font-size: 1.5rem;
+    }
+
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meniu {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Media Query for screens smaller than 480px (mobile phones) */
+@media (max-width: 480px) {
+    .titlu1 {
+        font-size: 2rem;
+    }
+
+    .titlu2 {
+        font-size: 1.2rem;
+    }
+
+    .parent {
+        margin: 10px;
+    }
+
+    .meniu {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
